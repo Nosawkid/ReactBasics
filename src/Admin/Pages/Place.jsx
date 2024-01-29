@@ -17,6 +17,7 @@ const Place = () => {
                         sx={{ width: 300 }}
                         renderInput={(params) => <TextField {...params} label="Districts" variant="standard" />}
                     />
+                    <div></div>
                 </Stack>
                 <Button sx={{display:"block",margin:"25px auto 0"}} variant="contained">Contained</Button>
             </Card>
