@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: aqua;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.top
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+button
+{
+    display: block;
+    padding: 5px 10px;
+    border: 0;
+    margin: 10px auto 0;
+    background-color: black;
+    color: bisque;
+    border-radius: 2px;
+}
+input
+{
+    border: 0;
+    padding: 5px;
+
+}
+h4
+{
+    font-size: 20px;
+}
